@@ -1,0 +1,22 @@
+<%= form_for(@kitten) do |f| %>
+      <p>
+      <%= f.label :name %>
+      <%= f.text_field :name, class: 'form-control' %>
+      </p>
+      <p>
+      <%= f.label :age %>
+      <%= f.text_field :age, class: 'form-control' %>
+      </p>
+      <p>
+      <%= f.label :cuteness %>
+      <%= f.text_field :cuteness, class: 'form-control' %>
+      </p>
+       <p>
+      <%= f.label :softness %>
+      <%= f.text_field :softness, class: 'form-control' %>
+      </p>
+      <p>
+      <%= f.submit "Post", class: "btn btn-primary" %>
+      </p>
+  <% end %>
+  

@@ -1,0 +1,15 @@
+<h1>kittens</h1>
+<% @kittens.each do |kitten| %>
+  <p>
+    <p><%= link_to kitten.name, kitten %></p>
+    <p><%= kitten.age %></p>
+    <p><%= kitten.cuteness %></p>
+    <p><%= kitten.softness %></p>
+   
+  </p>
+<hr />
+<% end %>
+
+
+        
+  
